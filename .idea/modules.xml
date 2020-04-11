@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fluxo.iml" filepath="$PROJECT_DIR$/Fluxo.iml" group="Fluxo" />
+      <module fileurl="file://$PROJECT_DIR$/academicflow/academicflow.iml" filepath="$PROJECT_DIR$/academicflow/academicflow.iml" group="Fluxo/academicflow" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Fluxo/app" />
+    </modules>
+  </component>
+</project>

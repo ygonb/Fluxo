@@ -1,0 +1,21 @@
+===================
+CADASTRO DAS COMPONENTES CURRICULARES
+0 FEL - Fundamentos de Eletrotécnica ( 1 / 40 / 80 / -1  / -1  )
+1 CA1 - Cálculo I ( 1 / 40 / 60 / -1  / -1  )
+2 FI2 - Física II ( 2 / 40 / 70 / 0 FEL / 3 CA2 )
+3 CA2 - Cálculo II ( 2 / 40 / 50 / 1 CA1 / -1  )
+4 ET1 - Eletrônica I ( 3 / 40 / 80 / 2 FI2 / -1  )
+5 LE1 - Laboratório de Eletrônica I ( 3 / 20 / 90 / -1  / 4 ET1 )
+===================
+MATRÍCULAS POR COMPONENTE ( <-PERÍODOS-> )
+FEL 90	18	3	0	0	0	0	0	0	
+CA1 90	36	12	4	1	0	0	0	0	
+FI2 0	48	35	12	5	2	0	0	0	
+CA2 0	53	42	21	8	5	0	0	0	
+ET1 0	0	33	29	11	6	1	0	0	
+LE1 0	0	33	26	7	4	1	0	0	
+===================
+TOTAIS
+Ativos: 	90	89	80	46	18	8	1	0	0	
+Egressos: 	0	0	0	26	48	58	63	64	64	
+Desist.:	10	11	20	28	34	34	36	36	36	

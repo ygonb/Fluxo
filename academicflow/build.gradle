@@ -1,0 +1,25 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+
+compileJava.options.encoding = "UTF-8"
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
+}
+
+// 1st approach
+javadoc.options.encoding = 'UTF-8'
+
+// 2nd approach
+tasks.withType(Javadoc) {
+    options.encoding = 'UTF-8'
+}
